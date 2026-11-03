@@ -24,8 +24,11 @@ export default function Home() {
           <div className="rise">
             <h1 className="font-display text-5xl md:text-7xl font-bold leading-[1.02] text-deep">A well-educated and healthy society.</h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/80">Empowering government and private school students with equal educational opportunities and counseling.</p>
-            <Link to="/#programs" className="mt-9 inline-block bg-leaf text-white px-7 py-3.5 font-medium rounded-sm hover:bg-deep transition-colors">Explore Our Programs</Link>
+            <div className="mt-9 flex flex-wrap gap-4">
+              <Link to="/#programs" className="inline-block bg-leaf text-white px-7 py-3.5 font-medium rounded-sm hover:bg-deep transition-colors">Explore Our Programs</Link>
+              <Link to="/apply" className="inline-block border-2 border-leaf text-leaf px-7 py-3.5 font-medium rounded-sm hover:bg-leaf hover:text-white transition-colors">Apply to Join</Link>
           </div>
+        </div>
           <div className="rise md:border-l-4 md:border-brass md:pl-8" style={{ animationDelay: '.25s' }}>
             <p className="font-display text-7xl md:text-8xl font-bold text-leaf tabular-nums leading-none">{students.toLocaleString()}+</p>
             <p className="mt-2 text-lg text-ink/75">Students reached</p>

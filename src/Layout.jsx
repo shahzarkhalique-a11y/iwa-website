@@ -7,6 +7,7 @@ const links = [
   { to: '/#programs', label: 'Programs' },
   { to: '/about', label: 'About Us' },
   { to: '/gallery', label: 'Gallery' },
+  { to: '/apply', label: 'Apply' },
   { to: '/#contact', label: 'Contact' },
 ]
 const cls = ({ isActive }) => `px-3 py-2 text-[15px] font-medium hover:text-leaf ${isActive ? 'text-leaf' : 'text-ink/80'}`
@@ -46,6 +47,7 @@ export default function Layout() {
           <ul className="space-y-2 text-white/80">
             <li><Link to="/about" className="hover:text-white">About Us</Link></li>
             <li><Link to="/gallery" className="hover:text-white">Gallery</Link></li>
+            <li><Link to="/apply" className="hover:text-white">Apply to join</Link></li>
             <li><Link to="/#programs" className="hover:text-white">Programs</Link></li>
           </ul>
         </div>

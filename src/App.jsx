@@ -4,6 +4,7 @@ import Layout from './Layout.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Gallery from './pages/Gallery.jsx'
+import Apply from './pages/Apply.jsx'
 
 function ScrollManager() {
   const { pathname, hash } = useLocation()
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Home />} />
+          <Route path="/apply" element={<Apply />} />
         </Route>
       </Routes>
     </>

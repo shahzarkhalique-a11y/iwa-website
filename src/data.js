@@ -1,3 +1,4 @@
+export const SHEET_URL = 'https://script.google.com/macros/s/AKfycby1JOZ6uwKvNrtqmNYvFljkxIaUKdk7E_KAXJaVTV-amBtFG8V4SHbXPoJy1FH4_PZR/exec'
 export const CONTACT = { president: 'Syed Talha Ali', phone: '0331-2896006', phoneHref: 'tel:+923312896006', facebook: 'https://facebook.com/ilwelfare' }
 
 export const programs = [
