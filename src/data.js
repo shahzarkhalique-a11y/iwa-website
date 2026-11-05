@@ -26,7 +26,13 @@ export const scope = [
 // Add photos to /public/gallery and set `src`, e.g. src: '/gallery/special-olympics-1.jpg'
 export const gallery = [
   { group: 'Event highlights', items: [
-    { label: 'Special Olympics Pakistan', src: '' }, { label: 'Yomun', src: '' }, { label: '23rd March celebrations', src: '' } ] },
+    { label: 'Karachi University Career Day 2024', src: '/gallery/ku_careerday_2024.jpeg' },
+    { label: 'Ilm Welfare Annual Celebration 2023', src: '/gallery/ilm_annual_celebration_2023.jpeg' },
+    { label: 'Independence Day Celebration 2019', src: '/gallery/independance_day_2019.jpeg' },
+    { label: 'Al Rozan Association Inauguration 2018', src: '/gallery/alrozan_inauguration_2018.jpeg' },
+  ] },
   { group: 'On-ground impact', items: [
-    { label: 'Classroom sessions', src: '' }, { label: 'Counseling periods', src: '' }, { label: 'Teacher training', src: '' } ] },
+    { label: 'Class session 2017', src: '/gallery/class_session_2017.jpeg' },
+    { label: 'Class session 2018', src: '/gallery/class_session_2018.jpeg' },
+  ] },
 ]
